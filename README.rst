@@ -53,9 +53,9 @@ Templates folder structure:
 Configuration
 =============
 
-- :code:`MOBILE_TEMPLATES_PREFIX` (Default: :code:`mobile/`) --- mobile templates subfolder.
-- :code:`MOBILE_DOMAIN_REGEX` (Default: :code:`^m.\.*.\.*.*'`, capture all domains started
-  with m.<domain_or_subdomain>) --- regular expression to capture mobile domains.
+- :code:`MOBILE_TEMPLATES_PREFIX` (Default: :code:`mobile/`) — mobile templates subfolder.
+- :code:`MOBILE_DOMAIN_REGEX` (Default: :code:`^m.\.*.\.*.*'`) — regular expression to capture mobile domains.
+  By default it captures all domains started with m.<domain_or_subdomain>.
 
 
 
