@@ -1,6 +1,9 @@
 Django-mobile-template
 ----------------------
 
+.. image:: https://travis-ci.org/linevich/django-mobile-template.svg?branch=master
+    :target: https://travis-ci.org/linevich/django-mobile-template
+
 Simple django app that dynamically change :code:`template_name` of your view based on domain name
 (e.g example.com and m.example.com).
 
