@@ -1,5 +1,8 @@
 from django.test import TestCase
-from django.shortcuts import reverse
+try:
+    from django.shortcuts import reverse
+except:
+    from django.core.urlresolvers import reverse
 
 
 class MobileViewTestCase(TestCase):
