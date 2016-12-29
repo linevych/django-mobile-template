@@ -21,4 +21,4 @@ python:
 install:
   - pip install -q Django==$DJANGO_VERSION
 
-script:  ln -s mobile_tempate/ example/mobile_tempate && python example/manage.py test
+script:  cp -r mobile_tempate/ example/mobile_tempate && python example/manage.py test
