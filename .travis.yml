@@ -21,4 +21,4 @@ python:
 install:
   - pip install -q Django==$DJANGO_VERSION
 
-script:  python example/manage.py test mobile_template.tests
+script:  python example/manage.py test
