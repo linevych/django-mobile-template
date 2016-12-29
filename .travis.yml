@@ -20,5 +20,6 @@ python:
 
 install:
   - pip install -q Django==$DJANGO_VERSION
+  - export PYTHONPATH="${PYTHONPATH}":"$(realpath mobile_template)"
 
-script:  export PYTHONPATH="${PYTHONPATH}":"$(realpath mobile_template)" && python example/manage.py test
+script:  python example/manage.py test
