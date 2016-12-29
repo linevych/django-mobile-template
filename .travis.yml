@@ -16,3 +16,10 @@ install:
   - export PYTHONPATH="${PYTHONPATH}:$(realpath mobile_template)"
 
 script:  python example/manage.py test
+
+matrix:
+  exclude:
+  - python: "3.5"
+    env: DJANGO_VERSION=1.7
+  - python: "3.5"
+    env: DJANGO_VERSION=1.6
