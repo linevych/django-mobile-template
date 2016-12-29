@@ -70,7 +70,7 @@ if VERSION[0] == 1 and VERSION[1] >= 8:
         },
     ]
 else:
-    TEMPLATE_DIRS = (os.path.join(BASE_DIR, 'templates'))
+    TEMPLATE_DIRS = (os.path.join(BASE_DIR, 'templates'), )
 
 WSGI_APPLICATION = 'project.wsgi.application'
 
