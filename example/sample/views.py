@@ -1,3 +1,6 @@
-from django.shortcuts import render
+from django.views.generic import TemplateView
+from mobile_template.views import MobileTemplateView
 
-# Create your views here.
+
+class Home(MobileTemplateView, TemplateView):
+    template_name = 'index.html'
